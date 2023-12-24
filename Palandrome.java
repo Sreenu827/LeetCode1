@@ -10,20 +10,13 @@ public class Palandrome{
             }
             i++;
             j--;
-
         }
         return true;
     }
-
     public static void main(String []args){
         int Number = 1222;
         boolean result = isPalandrome(Number);
 
-        System.out.println("The Given Number : " + Number + " Is a Palandrome? " + result);
-
-        
-
-
+        System.out.println("The Given Number : " + Number + " Is a Palandrome? " + result);    
     }
-
 }
